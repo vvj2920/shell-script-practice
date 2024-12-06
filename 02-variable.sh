@@ -20,15 +20,6 @@ read b
 
 echo "Sum of value is  $a+$b"
 
-# name1=jagdeesh
-# name2=vardhineni
-# read only  name1
-
-# echo  "first name  $name1 ,last name $name2"
-
-# # name1=Jithendra
-
-# # echo  "first name  $name1 last name $name2"
 
 
 
