@@ -18,7 +18,7 @@ read a
 echo "Enter  the value of B :"
 read b
 
-echo "Sum of value is ( $a+$b)"
+echo "Sum of value is  $a+$b"
 
 name1=jagdeesh
 name2=vardhineni
