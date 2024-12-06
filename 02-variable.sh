@@ -28,7 +28,7 @@ echo  "first name  $name1 ,last name $name2"
 
 name1=Jithendra
 
-echo  "first name  $name1 last name $name2"
+# echo  "first name  $name1 last name $name2"
 
 
 
