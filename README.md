@@ -13,3 +13,10 @@ read only--->values could not be modified later in the script.
 -s--means silent mode 
         eg :echo "Please enter your Password:: "
                 read -s PASSWORD
+                
+$# ---is a special variable in Bash that returns the number of arguments passed to the script.
+
+$0 ---holds the name of the script itself.
+
+$@ -----is a special variable that holds all the arguments passed to the script.
+
