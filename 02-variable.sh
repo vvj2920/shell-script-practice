@@ -6,10 +6,10 @@ echo "Script started at ${date}"
 echo " $PERSON1 is elder brother of $PERSON2 "
 
 echo "Please enter your username ::"
-read username
+read  -s username
 
 echo "Password enter"
-read password
+read  -s password
  echo "username is $username and password is $password"
 
 
