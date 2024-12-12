@@ -13,7 +13,7 @@ VALIDATE(){
     fi
 }
 
-if[ $ID -ne 0 ]
+ if [ $ID -ne 0 ]
 then
 echo "You are not a root user you have no access to Install"
 exit 1
