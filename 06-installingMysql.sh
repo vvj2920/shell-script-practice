@@ -4,16 +4,18 @@ ID=$(id -u)
 if [ $ID -ne 0 ]
 then
 echo "You are not a root user "
+exit 1
 else
 echo "You are root user"
 fi
 
 
-yum install mysql -y
+yum install myql -y
 
 if [ $? -ne 0 ]
 then
 echo "Error :Installing MySql is Filed "
+exit 1
 
 else
  echo "Installing Mysql Is success"
