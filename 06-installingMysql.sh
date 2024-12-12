@@ -18,6 +18,8 @@ echo "Error :Installing MySql is Filed "
 else
  echo "Installing Mysql Is success"
 
+ fi
+
  yum install git -y
 
 if [ $? -ne 0 ]
