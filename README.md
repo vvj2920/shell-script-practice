@@ -23,3 +23,23 @@ $@ -----is a special variable that holds all the arguments passed to the script.
 
  $?  ----- variable in Bash is a special variable that holds the exit status of the last command executed
 
+
+ exit
+ -------
+ 
+In Bash scripting, the exit command is used to terminate a script and optionally return an exit status code. The exit status code can be used to indicate the outcome of the script or function. Specifically:
+
+What Does exit 1 Mean?
+exit 1 means:
+The script is terminating with a non-zero exit status (1 in this case).
+It usually indicates an error or an unsuccessful execution.
+
+Exit Status Codes in Bash
+0: Indicates success or no error.
+Non-zero (1, 2, etc.`): Indicates failure or a specific error condition.
+The convention is:
+
+1: General error.
+2: Misuse of built-in commands.
+Other codes can be used to indicate specific types of errors, depending on the script.
+

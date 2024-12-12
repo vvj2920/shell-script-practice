@@ -15,7 +15,7 @@ yum install myql -y
 if [ $? -ne 0 ]
 then
 echo "Error :Installing MySql is Filed "
-
+exit 1
 else
  echo "Installing Mysql Is success"
 
