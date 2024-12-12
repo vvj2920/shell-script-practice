@@ -43,3 +43,5 @@ The convention is:
 2: Misuse of built-in commands.
 Other codes can be used to indicate specific types of errors, depending on the script.
 
+Why Use &>>?
+It's useful when you want to capture both the regular output and error messages from a command, particularly in scripts where you need to log the process for troubleshooting and tracking purposes.
