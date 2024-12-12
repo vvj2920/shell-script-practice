@@ -20,3 +20,6 @@ $0 ---holds the name of the script itself.
 
 $@ -----is a special variable that holds all the arguments passed to the script.
 
+
+ $?  ----- variable in Bash is a special variable that holds the exit status of the last command executed
+
